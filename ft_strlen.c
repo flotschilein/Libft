@@ -1,20 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isascii.c                                       :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/10 14:10:39 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 14:48:44 by fbraune          ###   ########.fr       */
+/*   Created: 2025/03/10 14:17:32 by fbraune           #+#    #+#             */
+/*   Updated: 2025/03/10 14:49:56 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isascii(int c)
+size_t	ft_strlen(const char *s)
 {
-	if (c >= 0 && c <= 127)
-		return (1);
-	return (0);
+	const char	*counter;
+
+	*counter = s;
+	while (*counter++ != '\0')
+		;
+	return (counter - s);
 }
