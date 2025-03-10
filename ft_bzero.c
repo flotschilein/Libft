@@ -1,23 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/10 14:17:32 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 14:56:58 by fbraune          ###   ########.fr       */
+/*   Created: 2025/03/10 15:09:16 by fbraune           #+#    #+#             */
+/*   Updated: 2025/03/10 15:14:45 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *s)
+void    *bezero(void *s, size_t n)
 {
-	const char	*counter;
+    unsigned char	*ptr;
 
-	*counter = s;
-	while (*counter++ != '\0')
-		;
-	return (counter - s);
+	ptr = (unsigned char *)s;
+	while (n-- >= 1)
+		*ptr++ = '\0';
+	return (s);
 }
