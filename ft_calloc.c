@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 20:13:28 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 20:31:03 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/12 20:01:34 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,19 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (ptr);
 }
+
+// int main(void)
+// {
+// 	int	*arr = (int *)ft_calloc(3, sizeof(int));
+// 	int	len;
+
+// 	len = 0;
+
+//     while (len < 3)
+// 	{
+// 		printf("%d", arr[len]);
+// 		len++;
+// 	}
+// 	free(arr);
+// 	return 0;
+// }

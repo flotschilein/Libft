@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 19:52:20 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/12 18:58:17 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/12 20:01:23 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,10 @@ int	ft_atoi(const char *str)
 	}
 	return ((int)(res * sign));
 }
+
+// int main(void)
+// {
+// 	char *test = "-2147483648";
+// 	printf("Test : %d (expected: %d)\n", ft_atoi(test), atoi(test));
+// 	return 0;
+// }
