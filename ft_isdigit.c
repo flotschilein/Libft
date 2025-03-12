@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 14:06:17 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 14:48:51 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/12 20:28:26 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,14 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
+
+// int main()
+// {
+// 	int c;
+
+// 	c = 'd';
+// 	if (ft_isdigit(c) == 1)
+// 		printf("yes");
+// 	else
+// 		printf("no");
+// }
