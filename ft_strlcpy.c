@@ -6,13 +6,13 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 16:18:23 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/12 19:10:51 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/12 19:14:00 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char dst, const char src, size_t dstsize)
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
 	size_t	len_src;
 	size_t	i;
