@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 17:28:47 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/12 17:30:03 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/12 17:42:39 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_putchar_fd(char c, int fd)
 {
-	write(fd, s, 1);
+	write(fd, &c, 1);
 }
