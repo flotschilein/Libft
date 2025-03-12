@@ -6,13 +6,13 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 19:52:20 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 20:11:44 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/12 18:58:17 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int	i;
 	int	res;
