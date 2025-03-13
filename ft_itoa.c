@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/11 18:53:21 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/13 18:35:09 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/13 19:01:09 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ char	*ft_itoa(int n)
 {
 	int			len;
 	char		*res;
-	long	int	nb;
+	long int	nb;
 
 	len = ft_len(n, 0);
 	res = (char *)malloc(sizeof(char) * (len + 1));
