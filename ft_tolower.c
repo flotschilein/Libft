@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 18:20:44 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/12 19:00:20 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/14 20:55:15 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,10 @@ int	ft_tolower(int c)
 		c = c + 32;
 	return (c);
 }
+
+// int main()
+// {
+// 	char c = 'A';
+
+// 	printf("('%c') = '%c'\n", c, ft_tolower(c));
+// }

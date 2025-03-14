@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/11 14:10:28 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/11 14:25:16 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/14 20:50:19 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[j] = '\0';
 	return (sub);
 }
+
+// int main(void)
+// {
+// 	const char *str = "Hello, World!";
+// 	char *result = ft_substr(str, 6, 5);
+// 	printf("%s\n", result);
+// }
