@@ -6,13 +6,14 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 18:49:36 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/12 20:22:09 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/13 19:46:03 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>
 

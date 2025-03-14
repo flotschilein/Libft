@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 17:10:25 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/12 17:42:45 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/14 14:53:23 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,12 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	write(fd, &s, ft_strlen(s));
-	write(fd, '\n', 1);
+	write(fd, s, ft_strlen(s));
+	write(fd, "\n", 1);
 }
+
+// int main()
+// {
+// 	char str[] = "hii";
+// 	ft_putendl_fd(str, 1);
+// }

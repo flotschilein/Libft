@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 19:37:17 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 19:58:36 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/13 20:24:37 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 			&& needle[j])
 			j++;
 		if (needle[j] == '\0')
-			return ((unsigned char *)(haystack + i));
+			return ((char *)(haystack + i));
 		i++;
 	}
 	return (NULL);

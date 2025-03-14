@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 15:09:16 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/13 19:19:16 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/13 19:34:11 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,5 +37,4 @@ void	*ft_bzero(void *s, size_t n)
 // 			printf("%c", str[len]);
 // 		len++;
 // 	}
-// 	printf("\n");
 // }

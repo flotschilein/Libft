@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 17:32:06 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/12 17:43:46 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/14 14:50:08 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,8 @@ void	ft_putnbr_fd(int n, int fd)
 	else
 		ft_putchar_fd(nb + '0', fd);
 }
+
+// int main()
+// {
+// 	ft_putnbr_fd(5, 1);
+// }

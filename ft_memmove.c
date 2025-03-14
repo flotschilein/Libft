@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 15:23:30 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/12 18:59:49 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/13 19:32:48 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,12 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
+
+// int main()
+// {
+// 	char src[] = "Hello, World!";
+// 	char dst[20];
+
+// 	ft_memmove(dst, src, sizeof(src));
+// 	printf("%s\n", dst);
+// }
