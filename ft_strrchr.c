@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 18:44:21 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 18:54:11 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/14 15:18:48 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,9 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
+
+// int main()
+// {
+// 	char *str = "TEST 123 ,c sdasd  r3ewd";
+// 	printf("%s\n", ft_strrchr(str, 'a'));
+// }

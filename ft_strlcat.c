@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 17:23:49 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/12 19:13:52 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/14 16:58:03 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,12 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[dst_len + i] = '\0';
 	return (dst_len + src_len);
 }
+
+// int main()
+// {
+// 	char dst[20] = "hello";
+// 	const char *src = "hellllo";
+
+// 	size_t res = ft_strlcat(dst, src, 6);
+// 	printf("%s, %zu\n", dst, res);
+// }

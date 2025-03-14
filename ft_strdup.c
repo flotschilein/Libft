@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 20:31:35 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 20:38:15 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/14 15:23:49 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,10 @@ char	*ft_strdup(const char *s1)
 	ptr[j] = '\0';
 	return (ptr);
 }
+
+// int main()
+// {
+// 	char *str = "TEST 123 ,c sdasd  r3ewd";
+// 	char *dup = ft_strdup(str);
+// 	printf("%s\n", dup);
+// }
