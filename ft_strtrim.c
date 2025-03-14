@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/11 14:55:37 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/11 18:50:16 by fbraune          ###   ########.fr       */
+/*   Created: 2025/03/14 20:31:28 by fbraune           #+#    #+#             */
+/*   Updated: 2025/03/14 20:39:14 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,11 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(trimed, s1 + begin, end - begin + 1);
 	return (trimed);
 }
+
+// int main(void)
+// {
+// 	char *s1 = "... Hel.lon. . Wor.ld ...";
+// 	char *set = ".";
+// 	char *result = ft_strtrim(s1, set);
+// 	printf("%s\n\n", result);
+// }
