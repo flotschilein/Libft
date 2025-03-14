@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 14:17:32 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 16:59:57 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/14 17:40:04 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,14 +21,10 @@ size_t	ft_strlen(const char *s)
 		;
 	return (counter - s - 1);
 }
-/*
-#include <stdio.h>
-int main(void)
-{
-    const char *test_string = "";
 
-    printf("Length of \"%s\" is: %zu\n", test_string, ft_strlen(test_string));
+// int main(void)
+// {
+// 	const char *test_string = "";
 
-    return 0;
-}
- */
+// 	printf("Length of \"%s\" is: %zu\n", test_string, ft_strlen(test_string));
+// }

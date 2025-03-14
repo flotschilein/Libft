@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 18:55:50 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/10 19:15:45 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/14 18:01:57 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,11 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (0);
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
+
+// int main()
+// {
+// 	const char *str1 = "Hello";
+// 	const char *str2 = "Hel1o";
+
+// 	printf("%d\n", ft_strncmp(str1, str2, 3));
+// }
