@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 18:49:36 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/13 19:46:03 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/15 23:16:50 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,12 @@
 # include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}				t_list;
 
 int		ft_atoi(const char *str);
 
