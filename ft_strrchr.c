@@ -6,12 +6,11 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 18:44:21 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/15 16:57:47 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/15 16:59:15 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
 char	*ft_strrchr(const char *s, int c)
 {
