@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 15:16:03 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/13 19:30:24 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/15 16:35:45 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 
 	d = (char *)dst;
 	s = (char *)src;
+	if (!dst && !src)
+		return (NULL);
 	while (n-- > 0)
 		*d++ = *s++;
 	return (dst);
@@ -29,6 +31,6 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 // 	char src[] = "Hello, World!";
 // 	char dst[20];
 
-// 	ft_memcpy(dst, src, sizeof(src));
+// 	ft_memcpy(((void *)0), ((void *)0), 3);
 // 	printf("%s\n", dst);
 // }

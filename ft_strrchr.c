@@ -6,29 +6,31 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 18:44:21 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/14 15:18:48 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/15 16:57:47 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <string.h>
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int	i;
+	const char	*last = NULL;
 
-	i = 0;
-	while (s[i] != '\0')
-		i++;
-	while (i-- >= 0)
+	while (*s != '\0')
 	{
-		if (s[i] == (char)c)
-			return ((char *)(s + i));
+		if (*s == (char)c)
+			last = s;
+		s++;
 	}
-	return (NULL);
+	if (c == '\0')
+		return ((char *)s);
+	return ((char *)last);
 }
 
 // int main()
 // {
 // 	char *str = "TEST 123 ,c sdasd  r3ewd";
-// 	printf("%s\n", ft_strrchr(str, 'a'));
+// 	printf("%s\n", ft_strrchr(str, '\0'));
+// 	printf("%s\n", strrchr(str, '\0'));
 // }
