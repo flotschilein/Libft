@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 18:49:36 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/15 23:16:50 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/16 17:34:41 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,5 +90,13 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 
 char	**ft_split(char const *s, char c);
+
+t_list	*ft_lstnew(void *content);
+
+void	ft_lstadd_front(t_list **lst, t_list *new);
+
+int		ft_lstsize(t_list *lst);
+
+t_list	*ft_lstlast(t_list *lst);
 
 #endif
