@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/14 20:31:28 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/14 20:39:14 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/17 16:42:05 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 // int main(void)
 // {
 // 	char *s1 = "... Hel.lon. . Wor.ld ...";
-// 	char *set = ".";
+// 	char *set = "";
 // 	char *result = ft_strtrim(s1, set);
 // 	printf("%s\n\n", result);
 // }
