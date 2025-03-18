@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 18:58:15 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/18 17:36:48 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/18 18:58:36 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,4 +71,3 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 // 		res = res->next;
 // 	}
 // }
-

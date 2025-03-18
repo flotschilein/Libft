@@ -6,7 +6,7 @@
 /*   By: fbraune <fbraune@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 15:30:42 by fbraune           #+#    #+#             */
-/*   Updated: 2025/03/16 16:01:04 by fbraune          ###   ########.fr       */
+/*   Updated: 2025/03/18 18:46:25 by fbraune          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,11 @@ t_list	*ft_lstnew(void *content)
 	lst->next = NULL;
 	return (lst);
 }
+
+// int main()
+// {
+// 	int *num = malloc(4);
+// 	*num = 42;
+// 	t_list *node = ft_lstnew(num);
+// 	printf("%d\n", *(int *)node->content);
+// }
