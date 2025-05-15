@@ -34,6 +34,7 @@ make
 ```
 
 **Make commands:**  
+- `make bonus` → Compiles the library including bonus functions (`libft.a`)  
 - `make` → Compiles the library (`libft.a`)  
 - `make clean` → Removes object files  
 - `make fclean` → Removes `libft.a` + object files  
