@@ -28,7 +28,7 @@
 ## **🚀 Installation**  
 
 ```bash
-git clone https://github.com/yourusername/libft.git
+git clone https://github.com/flotschilein/libft.git
 cd libft
 make
 ```
