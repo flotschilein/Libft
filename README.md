@@ -2,7 +2,7 @@
 **Your own C library**  
 
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)  
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/libft)  
+![GitHub last commit](https://img.shields.io/github/last-commit/flotschilein/libft)  
 
 ---
 
